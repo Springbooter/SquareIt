@@ -50,7 +50,7 @@ http://localhost:8080/swagger-ui.html
   <br>b) Works well to start/connect to. Can insert values through 
   queries in mySQL Workbench in the database "squareit" in its 
   table 'numbers'. The columns are being filled with values.
-  3) Does not work well with the back-end. The database does 
+  <br>c) Does not work well with the back-end. The database does 
   not take in values from the back-end. Liquibase does not make
   its two own columns. The back-end does not connect to the 
   database.
