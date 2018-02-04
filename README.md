@@ -56,3 +56,8 @@ http://localhost:8080/swagger-ui.html
     not take in values from the back-end. Liquibase does not make
     its two own columns. The back-end does not connect to the 
     database.
+
+Problems to be solved:
+1. Let the H2 database to be used during testing.
+2. Make Liquibase work.
+3. Make the back-end talk with mySQL database.
