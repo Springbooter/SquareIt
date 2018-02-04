@@ -26,18 +26,18 @@ http://localhost:8080/swagger-ui.html
 :::: What have been done, works, and does not work. ::::
 
 1. Front-end.
-  1) Works well. It does not look pretty. It is just there to 
+  <br>a) Works well. It does not look pretty. It is just there to 
   be functionall. It sends and gets numbers from the back-end. 
   Look at the other repository for it.
   
 2. Back-end.
-  1) Works well. Does send and get numbers to the front-end 
+  <br>a) Works well. Does send and get numbers to the front-end 
   when running spring-boot:run.
-  2) Does not work well with the real database. Seems to be 
+  <br>b) Does not work well with the real database. Seems to be 
   only using the H2 database at all times.
   
 3. Database.
-  1) Installation:
+  <br>a) Installation:
     1. Installed mySQL with a full installation.
     2. Has set admin as username "root" and password "root".
     3. In mySQL Workbench user "root" was selected and had
@@ -47,7 +47,7 @@ http://localhost:8080/swagger-ui.html
     5. Made a table in "squareit" called "numbers" with two
     columns. First column named "id" as "BIGINT(8)", PK, NN,
     UQ, AI. The second column named "number" as "INT(11)", nn.
-  2) Works well to start/connect to. Can insert values through 
+  <br>b) Works well to start/connect to. Can insert values through 
   queries in mySQL Workbench in the database "squareit" in its 
   table 'numbers'. The columns are being filled with values.
   3) Does not work well with the back-end. The database does 
