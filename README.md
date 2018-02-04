@@ -3,7 +3,7 @@
 
 #### Description
 
-Saves and gets a number from an mySQL database and squares it.
+Saves and gets a number from a mySQL database and squares it.
 
 The project have two rest-services which saves and gets a number from
 a database. One rest-service saves a number that is supplied
