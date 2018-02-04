@@ -47,11 +47,9 @@ http://localhost:8080/swagger-ui.html
     5. Made a table in "squareit" called "numbers" with two
     columns. First column named "id" as "BIGINT(8)", PK, NN,
     UQ, AI. The second column named "number" as "INT(11)", nn.
-    
   <br>b) Works well to start/connect to. Can insert values through 
   queries in mySQL Workbench in the database "squareit" in its 
   table 'numbers'. The columns are being filled with values.
-  
   <br>c) Does not work well with the back-end. The database does 
   not take in values from the back-end. Liquibase does not make
   its two own columns. The back-end does not connect to the 
